@@ -6,9 +6,6 @@
 //
 //
 
-extension ScoreModel {
-    
-    public struct Ordering {
-        
-    }
+public struct Ordering {
+    // (Ordered) array of IdentifierPath
 }

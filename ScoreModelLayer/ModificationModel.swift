@@ -6,11 +6,14 @@
 //
 //
 
+// FIXME: Implement `IdentifierModel`
+typealias IdentifierModel = String
+
+// FIXME: Implement `IdentifierModel`
+typealias ScoreRange = Range<Int>
+
 internal struct ModificationModel <T> {
     
     // FIXME: Implement
-    let identifierModel: String
-    
-    // FIXME: `MetricalDurationInterval`
-    let scoreRange: Range<Int>
+    let model: [T]
 }

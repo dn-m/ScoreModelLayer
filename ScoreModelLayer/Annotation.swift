@@ -6,9 +6,7 @@
 //
 //
 
-extension ScoreModel {
-    
-    public struct Annotation {
-        
-    }
+public struct Annotation {
+    // Annotation type
+    // Position ?
 }

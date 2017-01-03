@@ -6,9 +6,7 @@
 //
 //
 
-extension ScoreModel {
-    
-    public struct Filter {
-        
-    }
+public struct Filter {
+    // Dictionary of `shown` and `hidden` attribute types
 }
+    
