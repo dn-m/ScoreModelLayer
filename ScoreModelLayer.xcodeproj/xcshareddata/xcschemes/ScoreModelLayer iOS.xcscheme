@@ -7,57 +7,58 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForAnalyzing = "YES"
             buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
-            buildForArchiving = "YES">
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E47976D0463F96D5D3844D10"
+               BuildableName = "ScoreModelLayer.framework"
                BlueprintName = "ScoreModelLayer iOS"
-               ReferencedContainer = "container:ScoreModelLayer.xcodeproj"
-               BuildableName = "ScoreModelLayer iOS.framework">
+               ReferencedContainer = "container:ScoreModelLayer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
-            buildForAnalyzing = "NO"
             buildForTesting = "YES"
             buildForRunning = "NO"
             buildForProfiling = "NO"
-            buildForArchiving = "NO">
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B00B49722DA86115FD312F8F'
-               BlueprintName = 'ScoreModelLayer iOS Tests'
-               ReferencedContainer = 'container:ScoreModelLayer.xcodeproj'
-               BuildableName = 'ScoreModelLayer iOS Tests.xctest'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B00B49722DA86115FD312F8F"
+               BuildableName = "ScoreModelLayer iOS Tests.xctest"
+               BlueprintName = "ScoreModelLayer iOS Tests"
+               ReferencedContainer = "container:ScoreModelLayer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug"
       codeCoverageEnabled = "YES">
-      <AdditionalOptions>
-      </AdditionalOptions>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B00B49722DA86115FD312F8F'
-               BlueprintName = 'ScoreModelLayer iOS Tests'
-               ReferencedContainer = 'container:ScoreModelLayer.xcodeproj'
-               BuildableName = 'ScoreModelLayer iOS Tests.xctest'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B00B49722DA86115FD312F8F"
+               BuildableName = "ScoreModelLayer iOS Tests.xctest"
+               BlueprintName = "ScoreModelLayer iOS Tests"
+               ReferencedContainer = "container:ScoreModelLayer.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -65,17 +66,25 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      buildConfiguration = "Debug"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E47976D0463F96D5D3844D10"
+            BuildableName = "ScoreModelLayer.framework"
+            BlueprintName = "ScoreModelLayer iOS"
+            ReferencedContainer = "container:ScoreModelLayer.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES"
-      buildConfiguration = "Release"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      debugDocumentVersioning = "YES">
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

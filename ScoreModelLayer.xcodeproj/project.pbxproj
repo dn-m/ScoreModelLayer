@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0162A52E3F6DF592B342AFFC /* ScoreModelLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E96EBDBAB3FD47AEE62BF4 /* ScoreModelLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		073F6B901E1BED970098AA8E /* ScoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073F6B8F1E1BED970098AA8E /* ScoreModel.swift */; };
+		073F6B911E1BED970098AA8E /* ScoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073F6B8F1E1BED970098AA8E /* ScoreModel.swift */; };
+		073F6B931E1BEDCA0098AA8E /* ScoreModel+Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073F6B921E1BEDCA0098AA8E /* ScoreModel+Annotation.swift */; };
+		073F6B941E1BEDCA0098AA8E /* ScoreModel+Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073F6B921E1BEDCA0098AA8E /* ScoreModel+Annotation.swift */; };
+		073F6B961E1BEDF40098AA8E /* ScoreModel+Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073F6B951E1BEDF40098AA8E /* ScoreModel+Filter.swift */; };
+		073F6B971E1BEDF40098AA8E /* ScoreModel+Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073F6B951E1BEDF40098AA8E /* ScoreModel+Filter.swift */; };
+		073F6B991E1BEE080098AA8E /* ScoreModel+Ordering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073F6B981E1BEE080098AA8E /* ScoreModel+Ordering.swift */; };
+		073F6B9A1E1BEE080098AA8E /* ScoreModel+Ordering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073F6B981E1BEE080098AA8E /* ScoreModel+Ordering.swift */; };
 		448E2A327969199EF8DDBEEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57646CCA7CE40F99AEB3EE09 /* Foundation.framework */; };
 		7A62C00D7D064038E0AD6CD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70632E60A94BC413CC26F34 /* Cocoa.framework */; };
 		8F0076A4306EB75616496233 /* ScoreModelLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E96EBDBAB3FD47AEE62BF4 /* ScoreModelLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,13 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073F6B8F1E1BED970098AA8E /* ScoreModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreModel.swift; path = ScoreModelLayer/ScoreModel.swift; sourceTree = "<group>"; };
+		073F6B921E1BEDCA0098AA8E /* ScoreModel+Annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ScoreModel+Annotation.swift"; path = "ScoreModelLayer/ScoreModel+Annotation.swift"; sourceTree = "<group>"; };
+		073F6B951E1BEDF40098AA8E /* ScoreModel+Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ScoreModel+Filter.swift"; path = "ScoreModelLayer/ScoreModel+Filter.swift"; sourceTree = "<group>"; };
+		073F6B981E1BEE080098AA8E /* ScoreModel+Ordering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ScoreModel+Ordering.swift"; path = "ScoreModelLayer/ScoreModel+Ordering.swift"; sourceTree = "<group>"; };
 		185563F1A0C5B17FFA43378D /* ScoreModelLayer macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ScoreModelLayer macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		333EE64E5E659C22A00FC8EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = ScoreModelLayerTests/Info.plist; sourceTree = "<group>"; };
 		57646CCA7CE40F99AEB3EE09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		691A84A2E669F4E3942DEA17 /* ScoreModelLayer iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ScoreModelLayer iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CA11D673890BD6B3FA57DAB /* ScoreModelLayer iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "ScoreModelLayer iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA11D673890BD6B3FA57DAB /* ScoreModelLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScoreModelLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F95F655A4AE89735410EFFA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = ScoreModelLayer/Info.plist; sourceTree = "<group>"; };
-		94EAA2CB4E4C0C08478DD512 /* ScoreModelLayer macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "ScoreModelLayer macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EAA2CB4E4C0C08478DD512 /* ScoreModelLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScoreModelLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70632E60A94BC413CC26F34 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		E9E96EBDBAB3FD47AEE62BF4 /* ScoreModelLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScoreModelLayer.h; path = ScoreModelLayer/ScoreModelLayer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				A8FCA496E708BF12A4BE9238 /* Supporting Files */,
+				073F6B8F1E1BED970098AA8E /* ScoreModel.swift */,
+				073F6B921E1BEDCA0098AA8E /* ScoreModel+Annotation.swift */,
+				073F6B951E1BEDF40098AA8E /* ScoreModel+Filter.swift */,
+				073F6B981E1BEE080098AA8E /* ScoreModel+Ordering.swift */,
 			);
 			name = ScoreModelLayer;
 			sourceTree = "<group>";
@@ -99,9 +115,9 @@
 		47E322E296713062D89A9D08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8CA11D673890BD6B3FA57DAB /* ScoreModelLayer iOS.framework */,
+				8CA11D673890BD6B3FA57DAB /* ScoreModelLayer.framework */,
 				691A84A2E669F4E3942DEA17 /* ScoreModelLayer iOS Tests.xctest */,
-				94EAA2CB4E4C0C08478DD512 /* ScoreModelLayer macOS.framework */,
+				94EAA2CB4E4C0C08478DD512 /* ScoreModelLayer.framework */,
 				185563F1A0C5B17FFA43378D /* ScoreModelLayer macOS Tests.xctest */,
 			);
 			name = Products;
@@ -195,7 +211,7 @@
 			);
 			name = "ScoreModelLayer macOS";
 			productName = "ScoreModelLayer macOS";
-			productReference = 94EAA2CB4E4C0C08478DD512 /* ScoreModelLayer macOS.framework */;
+			productReference = 94EAA2CB4E4C0C08478DD512 /* ScoreModelLayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B00B49722DA86115FD312F8F /* ScoreModelLayer iOS Tests */ = {
@@ -229,7 +245,7 @@
 			);
 			name = "ScoreModelLayer iOS";
 			productName = "ScoreModelLayer iOS";
-			productReference = 8CA11D673890BD6B3FA57DAB /* ScoreModelLayer iOS.framework */;
+			productReference = 8CA11D673890BD6B3FA57DAB /* ScoreModelLayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E682D275FDBAB340D3334C97 /* ScoreModelLayer macOS Tests */ = {
@@ -257,6 +273,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					13A7FB0F01DFB335D441741A = {
+						LastSwiftMigration = 0820;
+					};
+					E47976D0463F96D5D3844D10 = {
+						LastSwiftMigration = 0820;
+					};
+				};
 			};
 			buildConfigurationList = A5F1DC48DCA182279D752BD4 /* Build configuration list for PBXProject "ScoreModelLayer" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -290,6 +314,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073F6B911E1BED970098AA8E /* ScoreModel.swift in Sources */,
+				073F6B971E1BEDF40098AA8E /* ScoreModel+Filter.swift in Sources */,
+				073F6B9A1E1BEE080098AA8E /* ScoreModel+Ordering.swift in Sources */,
+				073F6B941E1BEDCA0098AA8E /* ScoreModel+Annotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +325,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073F6B901E1BED970098AA8E /* ScoreModel.swift in Sources */,
+				073F6B961E1BEDF40098AA8E /* ScoreModel+Filter.swift in Sources */,
+				073F6B991E1BEE080098AA8E /* ScoreModel+Ordering.swift in Sources */,
+				073F6B931E1BEDCA0098AA8E /* ScoreModel+Annotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +396,7 @@
 		0662A7ED36BC21EBF863AB0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -379,6 +412,7 @@
 		1B117BC85327684194D7DC5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -395,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -416,6 +451,7 @@
 				PRODUCT_NAME = ScoreModelLayer;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -425,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -443,6 +480,8 @@
 				PRODUCT_NAME = ScoreModelLayer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -452,6 +491,7 @@
 		60EE0D2D880D5FB348668811 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -468,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -489,6 +530,8 @@
 				PRODUCT_NAME = ScoreModelLayer;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -497,6 +540,7 @@
 		8AF0D751433E6F4D27E97A6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -556,6 +600,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -574,6 +619,7 @@
 				PRODUCT_NAME = ScoreModelLayer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
