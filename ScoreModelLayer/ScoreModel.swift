@@ -8,5 +8,7 @@
 
 public class ScoreModel {
     
-    
+    public func segment(in range: Range<Int>) -> Segment {
+        fatalError("Not yet implemented")
+    }
 }
