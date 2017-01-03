@@ -16,6 +16,8 @@
 		073F6B971E1BEDF40098AA8E /* ScoreModel+Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073F6B951E1BEDF40098AA8E /* ScoreModel+Filter.swift */; };
 		073F6B991E1BEE080098AA8E /* ScoreModel+Ordering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073F6B981E1BEE080098AA8E /* ScoreModel+Ordering.swift */; };
 		073F6B9A1E1BEE080098AA8E /* ScoreModel+Ordering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073F6B981E1BEE080098AA8E /* ScoreModel+Ordering.swift */; };
+		073F6B9C1E1BEE520098AA8E /* ScoreModel+Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073F6B9B1E1BEE520098AA8E /* ScoreModel+Segment.swift */; };
+		073F6B9D1E1BEE520098AA8E /* ScoreModel+Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073F6B9B1E1BEE520098AA8E /* ScoreModel+Segment.swift */; };
 		448E2A327969199EF8DDBEEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57646CCA7CE40F99AEB3EE09 /* Foundation.framework */; };
 		7A62C00D7D064038E0AD6CD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70632E60A94BC413CC26F34 /* Cocoa.framework */; };
 		8F0076A4306EB75616496233 /* ScoreModelLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E96EBDBAB3FD47AEE62BF4 /* ScoreModelLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +47,7 @@
 		073F6B921E1BEDCA0098AA8E /* ScoreModel+Annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ScoreModel+Annotation.swift"; path = "ScoreModelLayer/ScoreModel+Annotation.swift"; sourceTree = "<group>"; };
 		073F6B951E1BEDF40098AA8E /* ScoreModel+Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ScoreModel+Filter.swift"; path = "ScoreModelLayer/ScoreModel+Filter.swift"; sourceTree = "<group>"; };
 		073F6B981E1BEE080098AA8E /* ScoreModel+Ordering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ScoreModel+Ordering.swift"; path = "ScoreModelLayer/ScoreModel+Ordering.swift"; sourceTree = "<group>"; };
+		073F6B9B1E1BEE520098AA8E /* ScoreModel+Segment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ScoreModel+Segment.swift"; path = "ScoreModelLayer/ScoreModel+Segment.swift"; sourceTree = "<group>"; };
 		185563F1A0C5B17FFA43378D /* ScoreModelLayer macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ScoreModelLayer macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		333EE64E5E659C22A00FC8EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = ScoreModelLayerTests/Info.plist; sourceTree = "<group>"; };
 		57646CCA7CE40F99AEB3EE09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -105,6 +108,7 @@
 			children = (
 				A8FCA496E708BF12A4BE9238 /* Supporting Files */,
 				073F6B8F1E1BED970098AA8E /* ScoreModel.swift */,
+				073F6B9B1E1BEE520098AA8E /* ScoreModel+Segment.swift */,
 				073F6B921E1BEDCA0098AA8E /* ScoreModel+Annotation.swift */,
 				073F6B951E1BEDF40098AA8E /* ScoreModel+Filter.swift */,
 				073F6B981E1BEE080098AA8E /* ScoreModel+Ordering.swift */,
@@ -314,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073F6B9D1E1BEE520098AA8E /* ScoreModel+Segment.swift in Sources */,
 				073F6B911E1BED970098AA8E /* ScoreModel.swift in Sources */,
 				073F6B971E1BEDF40098AA8E /* ScoreModel+Filter.swift in Sources */,
 				073F6B9A1E1BEE080098AA8E /* ScoreModel+Ordering.swift in Sources */,
@@ -325,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073F6B9C1E1BEE520098AA8E /* ScoreModel+Segment.swift in Sources */,
 				073F6B901E1BED970098AA8E /* ScoreModel.swift in Sources */,
 				073F6B961E1BEDF40098AA8E /* ScoreModel+Filter.swift in Sources */,
 				073F6B991E1BEE080098AA8E /* ScoreModel+Ordering.swift in Sources */,
